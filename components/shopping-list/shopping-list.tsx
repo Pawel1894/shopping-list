@@ -4,10 +4,12 @@ import { ProductList } from "./product-list";
 
 export const ShoppingList = () => {
   return (
-    <div>
-      <Heading />
-      <ProductList />
+    <>
+      <div className="flex flex-col gap-4">
+        <Heading />
+        <ProductList />
+      </div>
       <Menu />
-    </div>
+    </>
   );
 };
